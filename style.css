@@ -185,15 +185,10 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
     animation: rotate 7.5s linear forwards infinite;
     transform-origin: bottom center;
   }
-  .animationContainer{
 
-   
-  }
 .cube { 
-  
-  width: 5em; 
-  height: 5em; 
-  
+  width: 5em;
+  height: 5em;
   transform-style: preserve-3d; 
   transform: rotateY(30deg) rotateX(5deg); 
 } 
