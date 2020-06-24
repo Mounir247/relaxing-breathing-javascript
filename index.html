@@ -12,26 +12,40 @@
 </head>
 
 <body>
-    <h1>Relaxer</h1>
+    
+<button class="toggleMenuBtn" onclick="toggleMenu()">Change Theme</button>
+
+<div class="BackgroundMenu">
+    <nav class="NavFull">
+        <ul class="">
+            <li onclick="NeutralBg()"><a class="NavLinkText">Light</a></li>
+            <li onclick="NeutralDarkBg()"><a class="NavLinkText">Dark</a></li>
+            <li onclick="SummerBg()"><a class="NavLinkText">Beach</a></li>
+            <li onclick="MountainBg()"><a class="NavLinkText">Mountain</a></li>
+            <li onclick="ForestBg()"><a class="NavLinkText">Forest</a></li>
+            <li onclick="SpaceBg()"><a class="NavLinkText">Space</a></li>
+        </ul>
+    </nav>
+</div>
+
+
     <div class="container">
-        <div class="circle"></div>
+        <div class="circle circleChange"></div>
         <p id="text"></p>
         <div class="pointer-container">
             <div class="pointer">
                 <div class="animationContainer">
                         <div class='cube cube--ani'>
-                        <div class='face'><img src="./img/leaf.png" alt="" style="width: 200%;"></div>
-                        
-                        <div class='face'><img src="./img/leaf.png" alt="" style="width: 200%;"> </div>
-                        
-                        <div class='face'><img src="./img/leaf.png" alt="" style="width: 200%;"></div>
-                        <div class='face'><img src="./img/leaf.png" alt="" style="width: 200%;"></div>
+                        <div class='face'><img class="Spinner1-Img" src="./img/SpinnerLight.png" style="width: 200%;"></div>
+                        <div class='face'><img class="Spinner2-Img" src="./img/SpinnerLight.png" style="width: 200%;"></div>
+                        <div class='face'><img class="Spinner3-Img" src="./img/SpinnerLight.png" style="width: 200%;"></div>
+                        <div class='face'><img class="Spinner4-Img" src="./img/SpinnerLight.png" style="width: 200%;"></div>
                     </div>
                 </div>
                
             </div>
         </div>
-        <div class="gradient-circle"></div>
+        <div class="gradient-circle gradientCircleChange"></div>
     </div>
 
 
